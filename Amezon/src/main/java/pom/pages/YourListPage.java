@@ -13,11 +13,8 @@ public class YourListPage {
 	@FindBy (xpath = "//input[@name='submit.deleteItem']")
 	private WebElement deleteButton;
 	
-	private WebDriver driver ;
-	
 	public YourListPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
-		this.driver = driver;
 	}
 
 	public String getProductNameFromWishList() {

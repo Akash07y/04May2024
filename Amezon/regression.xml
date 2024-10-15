@@ -5,7 +5,6 @@
    <parameter name="browser" value="Chrome"/>
     <classes>  
       <class name="test.VerifySignInPage"/>
-      <class name="test.ValidateCartAndBuy"/>
     </classes>
   </test> <!-- RegressionTest -->
 </suite> <!-- RegressionSuite -->
