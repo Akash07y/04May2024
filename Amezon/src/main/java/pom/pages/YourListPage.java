@@ -14,9 +14,6 @@ public class YourListPage {
 	private WebElement deleteButton;
 	
 	
-	
-	
-	
 	public YourListPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
