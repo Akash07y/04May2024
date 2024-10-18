@@ -14,15 +14,14 @@ public class YourListPage {
 	private WebElement deleteButton;
 	
 	
-	
-	
-	
 	public YourListPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 
 	public String getProductNameFromWishList() {
+		System.out.println("tester 123branch");
 		return productName.getText().trim();
+		
 	}
 	
 	public void deleteProductFromList() {
