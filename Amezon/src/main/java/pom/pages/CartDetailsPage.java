@@ -27,6 +27,9 @@ public class CartDetailsPage {
 		PageFactory.initElements(driver,this);
 	}
 	
+	
+	
+	
 	public String getFirstProductName() {
 		String name =  firstProductName.getText().trim();
 		System.out.println("Cart Page ProductName- " + name);
