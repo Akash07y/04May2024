@@ -13,6 +13,10 @@ public class YourListPage {
 	@FindBy (xpath = "//input[@name='submit.deleteItem']")
 	private WebElement deleteButton;
 	
+	
+	
+	
+	
 	public YourListPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
