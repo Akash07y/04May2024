@@ -15,7 +15,13 @@ public class Browser {
 		WebDriver driver = new ChromeDriver();	
 		return driver ;
 	}
-	
+
+	public static WebDriver launchSafariBrowser() {		
+		//System.setProperty("webDriver.sfari.driver", "driver exec file path");
+		WebDriver driver = new SfariDriver();	
+		return driver ;
+	}
+
 	public static WebDriver launchFirefoxBrowser() {		
 		//System.setProperty("webDriver.edge.driver", "driver exec file path");
 		WebDriver driver = new FirefoxDriver();	
