@@ -19,7 +19,7 @@ public class YourListPage {
 	}
 
 	public String getProductNameFromWishList() {
-		System.out.println("tester branch");
+		System.out.println("tester 123branch");
 		return productName.getText().trim();
 		
 	}
