@@ -51,7 +51,16 @@ public class ValidateCartAndBuy extends Browser{
 		
 		System.out.println(expectedBrowser);		
 		driver = launchBrowser(expectedBrowser);
-		
+		System.out.println("Hi");		
+		System.out.println("gngngn");	
+		System.out.println("hnhn");		
+		System.out.println("TEst");	
+		System.out.println("nfhnh");		
+		System.out.println("gngfngfn");	
+		System.out.println("gngfngn");		
+		System.out.println("gngng");	
+		System.out.println("gngn");		
+		System.out.println("ngng");	
 		System.out.println("Hi");		
 		System.out.println("TEst");	
 		System.out.println("fgh");		
@@ -59,7 +68,10 @@ public class ValidateCartAndBuy extends Browser{
 		System.out.println("Hi");		
 		System.out.println("Hi");		
 		System.out.println("TEst");	
-		
+		System.out.println("gngfngn");		
+		System.out.println("gngng");	
+		System.out.println("gngn");	
+
 	}
 	
 	@BeforeClass
@@ -116,3 +128,5 @@ public class ValidateCartAndBuy extends Browser{
 		driver.quit();
 	}
 }
+
+
