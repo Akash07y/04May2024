@@ -52,6 +52,14 @@ public class ValidateCartAndBuy extends Browser{
 		System.out.println(expectedBrowser);		
 		driver = launchBrowser(expectedBrowser);
 		
+		System.out.println("Hi");		
+		System.out.println("TEst");	
+		System.out.println("fgh");		
+		System.out.println("TEst");	
+		System.out.println("Hi");		
+		System.out.println("Hi");		
+		System.out.println("TEst");	
+		
 	}
 	
 	@BeforeClass
