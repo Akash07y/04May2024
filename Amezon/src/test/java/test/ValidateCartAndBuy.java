@@ -51,6 +51,8 @@ public class ValidateCartAndBuy extends Browser{
 		
 		System.out.println(expectedBrowser);		
 		driver = launchBrowser(expectedBrowser);
+		System.out.println("Hi");		
+		System.out.println("TEst");		
 		
 	}
 	
