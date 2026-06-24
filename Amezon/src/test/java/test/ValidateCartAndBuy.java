@@ -61,12 +61,17 @@ public class ValidateCartAndBuy extends Browser{
 		System.out.println("gngng");	
 		System.out.println("gngn");		
 		System.out.println("ngng");	
-
-
-		
+		System.out.println("Hi");		
+		System.out.println("TEst");	
+		System.out.println("fgh");		
+		System.out.println("TEst");	
+		System.out.println("Hi");		
+		System.out.println("Hi");		
+		System.out.println("TEst");	
 		System.out.println("gngfngn");		
 		System.out.println("gngng");	
 		System.out.println("gngn");	
+
 	}
 	
 	@BeforeClass

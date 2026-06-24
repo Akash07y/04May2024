@@ -17,8 +17,8 @@ public class Browser {
 	}
 
 	public static WebDriver launchSafariBrowser() {		
-		//System.setProperty("webDriver.sfari.driver", "driver exec file path");
-		WebDriver driver = new SfariDriver();	
+		System.setProperty("webDriver.opera.driver", "driver exec file path");
+		WebDriver driver = new OperaDriver();	
 		return driver ;
 	}
 
